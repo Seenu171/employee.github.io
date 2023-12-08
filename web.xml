@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <display-name>Project01</display-name>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+  </welcome-file-list>
+
+  <servlet>
+    <servlet-name>prog1</servlet-name>
+    <servlet-class>com.tap.Program1</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>prog1</servlet-name>
+    <url-pattern>/callprogram1</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  
+  
+  
+  <servlet>
+  
+  <servlet-name>callProgram2</servlet-name>
+  <servlet-class>com.tap.Program2</servlet-class>
+  
+  
+  </servlet>
+  
+  
+  
+  <servlet-mapping>
+  
+  <servlet-name>callProgram2</servlet-name>
+  <url-pattern>/callLogin</url-pattern>
+  
+  </servlet-mapping>
+  
+  
+  
+ <servlet>
+ <servlet-name>callProgram3</servlet-name>
+ <servlet-class>com.tap.Program3</servlet-class>
+ 
+ </servlet>
+  
+ 
+  <servlet-mapping>
+  
+   <servlet-name>callProgram3</servlet-name>
+  <url-pattern>/call1</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+  
+  <servlet-name>callProgram4</servlet-name>
+  <servlet-class>com.tap.Program4</servlet-class> 
+  
+  </servlet>
+  
+  
+  
+  <servlet-mapping>
+  
+  <servlet-name>callProgram4</servlet-name> 
+  <url-pattern>/call2</url-pattern>
+  
+  </servlet-mapping>
+  
+  
+  
+  
+  
+   <servlet>
+  
+  <servlet-name>callBlock</servlet-name>
+  <servlet-class>com.tap.Block</servlet-class> 
+  
+  </servlet>
+  
+  
+  
+  <servlet-mapping>
+  
+  <servlet-name>callBlock</servlet-name> 
+  <url-pattern>/block</url-pattern>
+  
+  </servlet-mapping>
+  
+  
+  
+  
+  
+  
+  
+  <servlet>
+    <servlet-name>DisplayRecordsServlet</servlet-name>
+    <servlet-class>com.tap.EmployeeListServlet</servlet-class>
+  </servlet>
+
+<servlet-mapping>
+    <servlet-name>DisplayRecordsServlet</servlet-name>
+    <url-pattern>/emp</url-pattern>
+</servlet-mapping>
+  
+  
+  
+  </web-app>
+
